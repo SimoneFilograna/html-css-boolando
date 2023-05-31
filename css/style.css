@@ -127,7 +127,7 @@ ul li a, .icon a i {
 }
 
 .img-container:hover .model-b {
-    display: block;
+    display: inline-block;
 }
 
 .price {
