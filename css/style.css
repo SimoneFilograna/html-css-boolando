@@ -156,12 +156,13 @@ footer{
     font-size: 1.rem;
 }
 
-.credits{
+.credits, .icon{
     display: flex;
     list-style: none;
 }
 
-.credits li {
-    padding-right: 1.4rem;
-    padding-top: 0.8rem;
+.icon li a, .credits li a  {
+    display: inline-block;
+    padding-top: 1rem;
 }
+
