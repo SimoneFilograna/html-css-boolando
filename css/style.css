@@ -73,3 +73,35 @@ ul li a, .icon a i {
 .img-container img {
     width: 100%;
 }
+
+.img-container{
+    position: relative;
+}
+
+.sale-1 {
+    position: absolute;
+    bottom: 1.5rem;  
+    left: 0.4rem; 
+}
+
+.img-text{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: .8rem;
+    line-height: 1.2rem;
+
+}
+
+.red{
+    width: 3rem;
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    width: 6rem;
+}
+
+
+
