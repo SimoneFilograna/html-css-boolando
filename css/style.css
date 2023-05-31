@@ -139,3 +139,29 @@ ul li a, .icon a i {
     text-decoration: line-through;
     font-size: 0.9rem;
 }
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+.info{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.rem;
+}
+
+.credits{
+    display: flex;
+    list-style: none;
+}
+
+.credits li {
+    padding-right: 1.4rem;
+    padding-top: 0.8rem;
+}
