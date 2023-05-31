@@ -8,15 +8,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    position: fixed;
-    width: 100%;
-}
-
 .big-container {
     width: 100%;
     background-color:  rgb(255, 128, 0);  
     box-shadow: 0px 2px 1px rgb(192, 191, 191);
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-bar {
@@ -27,8 +25,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgb(192, 191, 191);
-    
+    border-bottom: 1px solid rgb(192, 191, 191);  
+}
+
+/* main */
+main{
+    padding-top: 150px;
 }
 
 .gender, .icon {
@@ -54,4 +56,20 @@ ul li a, .icon a i {
     padding: 0 10px;
     text-decoration: none;
     font-weight: bolder;
+}
+
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.column {
+    width: 33.3%;
+    padding: 0 2rem;
+}
+
+.img-container img {
+    width: 100%;
 }
