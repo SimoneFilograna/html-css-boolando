@@ -128,3 +128,13 @@ ul li a, .icon a i {
 .img-container:hover .model-b {
     display: block;
 }
+
+.price {
+    color: red;
+    font-weight: 800;
+}
+
+.sbarrato{
+    text-decoration: line-through;
+    font-size: 0.9rem;
+}
