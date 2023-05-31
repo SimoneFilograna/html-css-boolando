@@ -80,7 +80,7 @@ ul li a, .icon a i {
 
 .sale-1 {
     position: absolute;
-    bottom: 1.5rem;  
+    bottom: 1.8rem;  
     left: 0.4rem; 
 }
 
@@ -103,5 +103,18 @@ ul li a, .icon a i {
     width: 6rem;
 }
 
+.heart {
+    position: absolute;
+    right: 1.4rem;
+    top: 1.5rem;
+    display: inline;
+    color: red;
+    display: none;
+}
+
+
+.img-container:hover .heart {
+    display: block;
+}
 
 
