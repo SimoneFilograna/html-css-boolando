@@ -63,11 +63,12 @@ ul li a, .icon a i {
     width: 100%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
     width: 33.3%;
-    padding: 0 2rem;
+    padding: 0 2rem 4rem;
 }
 
 .img-container img {
