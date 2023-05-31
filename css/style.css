@@ -9,8 +9,25 @@
     height: 100px;
     background-color: rgb(255, 128, 0);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gender, .icon {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;   
 }
 
 .gender {
-    display: flex;
+    list-style: none;
+}
+
+a {
+    color: white
+    ;
 }
