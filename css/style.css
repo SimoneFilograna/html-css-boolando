@@ -117,4 +117,14 @@ ul li a, .icon a i {
     display: block;
 }
 
+.model-b {
+    display: none;
+}
 
+.img-container:hover .model-a{
+    display: none;
+}
+
+.img-container:hover .model-b {
+    display: block;
+}
