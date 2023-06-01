@@ -108,7 +108,6 @@ ul li a, .icon a i {
     position: absolute;
     right: 1.4rem;
     top: 1.5rem;
-    display: inline;
     color: red;
     display: none;
 }
